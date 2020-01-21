@@ -8,3 +8,4 @@ You can achieve this with the following steps:
 2. add it to the list of objects under "SledgeHammer"
 3. and format it like the rest are with win and lose arrays
 4. add it to the win and lose arrays of everything else 
+5. Run the python program and type help to see how to use it
