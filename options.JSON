@@ -1,0 +1,29 @@
+{
+  "options" : [
+    "Rock",
+    "Paper",
+    "Scissors",
+    "Lizard",
+    "SledgeHammer"
+  ],
+  "Rock" : {
+    "win" : ["Scissors","Lizard"],
+    "lose" : ["Paper","SledgeHammer"]
+  },
+  "Paper" : {
+    "win" : ["Rock","SledgeHammer"],
+    "lose" : ["Scissors","Lizard"]
+  },
+  "Scissors" : {
+    "win" : ["Paper","Lizard"],
+    "lose" : ["Rock","SledgeHammer"]
+  },
+  "Lizard" : {
+    "win" : ["Paper","SledgeHammer"],
+    "lose" : ["Scissors","Rock"]
+  },
+  "SledgeHammer" : {
+    "win" : ["Rock","Scissors"],
+    "lose" : ["Lizard","Paper"]
+  }
+}
